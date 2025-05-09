@@ -1,0 +1,40 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    border-bottom: 1px #000 solid;
+    z-index: 20;
+}
+.nav-logo {
+    max-width: 100vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-inline: 24px;
+}
+.nav-logo a {
+    text-decoration: none;
+    color: #000;
+}
+
+.menu {
+    display: flex;
+    font-weight: 500;
+    gap: 2rem;
+    padding-top: auto;
+    background-color: aqua;
+    margin: auto;
+    margin-bottom: 0;
+}
+
+.menu a {
+    font-size: 1.125rem;
+    padding-top: 4px;
+    padding-bottom: 16px;
+    letter-spacing: 0.04em;
+}
