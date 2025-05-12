@@ -1,4 +1,3 @@
-// src/components/header/header.js
 class HeaderComponent extends HTMLElement {
   async connectedCallback() {
     try {
